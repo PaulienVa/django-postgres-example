@@ -20,7 +20,7 @@ from rest_framework import routers
 from teachersapplication import views
 
 router = routers.DefaultRouter()
-router.register(r'heroes', views.TeacherViewSet)
+router.register(r'teachers', views.TeacherViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
